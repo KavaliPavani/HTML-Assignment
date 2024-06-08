@@ -1,0 +1,551 @@
+Assignment 1: Basic HTML Structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+</head>
+<style>
+    h1{
+        text-align:left;
+        font-size:large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    body{
+        border: 2px;
+        padding: 4px;
+        height: auto;
+        width: auto;
+        background-color: darkgrey;
+    }
+    p{
+        height: 80px;
+        width: 350px;
+        font-size: medium;
+    }
+</style>
+<body>
+    <h1> KAVALI PAVANI </h1>
+    <p> I am  K.Pavani pursuing under graduation in 2 nd year in MallaReddy Institude of Technology and Science. 
+        I am a native of Nalgonda district in Telangana state. My hobbies are
+    </p>
+    <ul>
+        <li> Reading books </li>
+        <li> Listening songs </li>
+        <li> Dancing </li>
+    </ul>
+    <br> 
+    And Google is my favorite website.
+ <br> <a href="https://www.google.co.in/"> Google</a>  
+</body>
+</html>
+ 
+
+Assignment 2: HTML Forms
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border-radius: 10%;
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p> <b>User Name : </b> <input type="text" placeholder="User Name"></p>
+        <p><b> Email :</b> <input type="email" placeholder="@gmail.com"></p>
+        <p> <b> Password :</b> <input type="password" placeholder="password"></p>
+        <p> <input type="checkbox"> agree the terms and conditions </p>
+        <p><input type="submit"></p>
+    </form>
+    
+</body>
+</html>
+ 
+Assignment 3: HTML Table
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Time table </title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        td th { 
+            text-align: center;
+            background-color: #fff;
+        }
+        table {
+            background-color: #eee8e8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Schedule </h1>
+    <table border="2px">
+        <tr>
+            <th> TIME </th>
+            <th> MONDAY</th>
+            <th> TUESDAY</th>
+            <th> WEDNESDAY</th>
+            <th> THURSDAY</th>
+            <th> FRIDAY</th>
+            <th> SATURDAY</th>
+            <th> SUNDAY</th> 
+
+        </tr>
+        <tr>
+            <td> Morning </td>
+            <td> Exercise</td>
+            <td> Meditation</td>
+            <td> Study</td>
+            <td> yoga</td>
+            <td> study</td>
+            <td>Exercise</td>
+            <td> Rest</td>
+        </tr>
+        <tr>
+            <td> Afternoon </td>
+            <td> Work</td>
+            <td>Work</td>
+            <td> Meeting</td>
+            <td> Meeting</td>
+            <td> Work</td>
+            <td> Work</td>
+            <td> Watching Moive </td>
+        </tr>
+        <tr>
+            <td> Evening </td>
+            <td>Study</td>
+            <td> Jogging</td>
+            <td> Work</td>
+            <td> Meeting</td>
+            <td> Jogging</td>
+            <td> Meeting</td>
+            <td> Spending time with family</td>
+        </tr>
+       </table>
+    
+</body>
+</html>
+ Assignment 4: HTML Image and Links
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 2px;
+            border: 10px;
+            background-color: rgb(164, 200, 200);
+            color: blue;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+        }
+        img {
+            height: 250px;
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\536\sky.jpg" alt=" Image">
+    <br>
+    <figcaption>" Lost in the beauty of sky " </figcaption>
+</body>
+</html>
+ 
+
+Assignment 5: Nested Links
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested List </title>
+    <style>
+        h2 {
+            text-align: center;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body {
+            background-color:#fff;
+           
+        }
+    </style>
+</head>
+<body>
+    <h2> MY FAVORITE MOIVES </h2> b 
+    <ul>
+        <li>  <b>Goodharavi </b>
+            <ul>
+                <Li> It was realised in the year 2006</Li>
+                <li> Main Actors are Sumanth, Kamalinee Mukherjee and others </li>
+                <li> <p>Godavari is a 2006 Indian Telugu-language romantic comedy drama film written and directed by Sekhar Kammula, and produced by G. V. G. Raju. Sumanth and Kamalinee Mukherjee played the lead roles.</p>
+                    <p>Godavari is a film about Sriram, Sita, and the river cruise, from Rajahmundry to Bhadrachalam, that brings them together. It is a love story set against the scenic backdrop of the Godavari River aboard a cruise boat also called Godavari. </p> </li>
+            </ul>
+        </li>
+        <li> <b>Bahubali </b>
+            <ul>
+                <li> It was realised in the year 2015 </li>
+                <li> Main Actors are Prabas, Rana, Anushka Shetty, RamyaKrishna and others</li>
+                <li><p>Baahubali: The Beginning is a 2015 Indian epic action film co-written and directed by S. S. Rajamouli, and produced by Shobu Yarlagadda and Prasad Devineni under Arka Media Works.</p>
+                    <p>The first of Duology, the film follows Sivudu, an adventurous young man who helps his love Avantika rescue Devasena, the former queen of Mahishmati who is now a prisoner under the tyrannical rule of king Bhallaladeva. The story concludes in Baahubali 2: The Conclusion.</p></li>
+            </ul>
+        </li>
+        <li> <b>Goodachari</b>
+            <ul>
+                <li>It was realised in the year 2018 </li>
+                <li> Main Actors are Adivi Sesh, Sobhitha Dhulipala, Jagapathi Babu , and Prakesh Raj</li>
+                <li> <p>A young NSA agent is framed for the murder of his bosses making him realize that now his mission is darker than expected and has some personal scores to settle regarding his father's death, a former NSA agent.</p></li>
+            </ul>
+
+        </li>
+        <li> <b>Yey Jawaani Hai Deewani</b>
+            <ul>
+                <li> It was realised in the year 2013. </li>
+                <li> Main Actors are Randir Kapoor,Deepika Padukone , Aditya Roy Kapoor and Kalki Koechlin</li>
+                <li> <p> It is a 2013 Indian Hindi-language coming-of-age romantic comedy-drama film directed by Ayan Mukerji, written by Mukerji</p>
+                     <p> Yeh Jawaani Hai Deewani revolves around Naina and Bunny, who meet during a trekking trip where Naina falls in love with Bunny but refrains from expressing it. They soon drift apart but end up meeting again at a friend's wedding.</p></li>
+            </ul>
+
+        </li>
+        <li><b> Karthikeya 2</b>
+            <ul>
+                <li> It was realised in the year 2022.</li>
+                <li> Nikhil Siddhartha and Aunpama Parameswaran </li>
+                <li> <p>Karthikeya 2 is a 2022 Indian Telugu-language mystery action-adventure film written and directed by Chandoo Mondeti.</p>
+                     <p>In the film, Dr. Karthikeya is on a quest to find the lost anklet of Lord Krishna.</p></li>
+            </ul>
+
+        </li>
+
+    </ul>
+</body>
+</html>
+ 
+
+Assignment 6: Semantic HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semamtic HTML</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            width: 60%;
+            margin: 20px 0;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        aside {
+            width: 25%;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1> Technology </h1>
+            <p>Technology affects people all over the world. Advances in technology have made our countries safer and our lives easier, they have also negatively affected our lives. Technology have brought us online banking, smart cars, smart TVs, lightning fast computers, and the virtual reality. Also there include cyber warfare, hackers, identity theft, cyber stalking, and a host of other bad things.
+            </p>
+            <p>The society has been changed with the evolution of technology. Life was burdensome and everyday chores consumed too much of our time, before the advent of modern day technology. The access to education, medicine, industry, transportation etc. has been simplified due to development in modern day technology.</p>
+            <p>Due to the convenience and efficiency provided by technology, our lives have improved. Information technology give a new face to traditional libraries that include both digital collections and traditional, fixed media collections.</p>
+
+        </article>
+    </main>
+    <aside>
+        <h2>Related Links </h2>
+        <ul>
+            <li><a href="https://medium.com/@niyajohn9495/short-article-about-technology-bebdea8736e1"> Link 1</a></li>
+            <li><a href="https://www.nytimes.com/section/technology"> Link 2</a></li>
+            <li><a href="https://online.ucpress.edu/gp/article/2/1/27353/118411/How-Is-Technology-Changing-the-World-and-How">Link 3 </a></li>
+        </ul>
+    </aside>
+    <footer> 
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p> Contact Us : 9000000900</p>
+    </footer>
+    
+</body>
+</html>
+ 
+
+Assignment 7: HLML Media
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media </title>
+</head>
+<body>
+    <h1> Media Elements </h1>
+    <h2>Audio Player</h2>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+    </audio>
+    <p>This is an audio player for a audio file. Use the controls to play, pause, and adjust the volume.</p>
+    <br>
+    <h2> Video Player </h2>
+        <video controls width="500">
+            <source src="sample-video.mp4" type="video/mp4">
+        </video>
+    <p>This is a video player for a video file. Use the controls to play, pause, and adjust the volume.</p>
+
+</body>
+</html>
+ 
+
+Assignment 8: HTML Forms with Select and Radio Buttons
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+</head>
+<body>
+    <form>
+        <p> <b>User Name : </b> <input type="text" placeholder="User Name"></p>
+        <p><b><h4>Gender:</h4></b>
+            <input type="radio"value="male" name="class">male
+            <input type="radio"value="female" name="class">female
+            <input type="radio"value="others" name="class">others
+        </p>
+        <p> <b>Country </b><select name="year">
+            <option value="others"> others</option>
+            <option value="Austraila"> Austraila</option>
+            <option value="Burma"> Burma</option>
+            <option value="Bangladesh"> Bangladesh </option>
+            <option value="China"> China</option>
+            <option value=" Egypt"> Egypt </option>
+            <option value="France"> France </option>
+            <option value="Germany"> Germany </option>
+            <option value="Hawaii"> Hawaii </option>
+            <option value="Iceland"> Iceland</option>
+            <option value="India"> India </option>
+            <option value=" Japan"> Japan </option>
+            <option value="Korea"> Korea </option>
+            <option value="Libya"> Libya </option>
+            <option value="Maldives"> Maldives</option>
+            <option value="Mexico">Mexico </option>
+            <option value="Nepal"> Nepal</option>
+            <option value="Pakisthan"> Pakisthan </option>
+            <option value="Peru"> Peru </option>
+            <option value="Russia"> Russia</option>
+            <option value="Srilanka"> Srilanka</option>
+            <option value="USA"> USA </option>
+            <option value="UK"> UK </option>
+            <option value="UAE"> UAE </option>
+
+        </select></p>
+        <input type="submit"value="submit">
+    </form>
+    
+</body>
+</html>
+ Assignment 9: HTML Semantic Elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Semantic Elements</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;            
+            background-color: aliceblue;
+            flex-direction: column;
+        }
+        header{
+            padding: 20PX;
+            margin: 10px;
+        }
+         nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            padding: 20px;
+            margin: 10px;
+        }
+        article {
+            flex: 3;
+            background-color: rgb(148, 235, 235);
+            padding: 20px;
+            margin: 10px;
+
+
+        }
+        aside {
+            flex: 1;
+            background-color:rgb(148, 235, 235);
+            padding: 20px;
+            margin: 10px;
+        }
+        footer {
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home"> Home </a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Services"> Services</a></li>
+                <li><a href="Help"> Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>  Technology </h2>
+            <p>Technology affects people all over the world. Advances in technology have made our countries safer and our lives easier, they have also negatively affected our lives. Technology have brought us online banking, smart cars, smart TVs, lightning fast computers, and the virtual reality. Also there include cyber warfare, hackers, identity theft, cyber stalking, and a host of other bad things.
+            </p>
+            <p>The society has been changed with the evolution of technology. Life was burdensome and everyday chores consumed too much of our time, before the advent of modern day technology. The access to education, medicine, industry, transportation etc. has been simplified due to development in modern day technology.</p>
+            <p>Due to the convenience and efficiency provided by technology, our lives have improved. Information technology give a new face to traditional libraries that include both digital collections and traditional, fixed media collections.</p>
+        </article>
+        <aside>
+            <h2> note</h2>
+            <p>Technology has also brought about efficiency and quality in the manufacturing sector. Technological advancement has reduced the risk.</p>
+
+        </aside>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p> Contact Us : 9000000900</p>
+    </footer>
+    
+</body>
+</html>
+ 
+
+
+Assignment 10: HTML Comments and Special Characters
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comements And Special Characters </title>
+    <style> 
+        body {
+            border: 2px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Special Characters </h1>
+    <p> Special characters are specific pieces of HTML code designed to display characters that are used in the HTML code or to include characters that are not found on the keyboard in the text the viewer sees.</p>
+    <p>HTML renders these special characters with either numeric or character encoding so that they can be included in an HTML document, read by the browser, and displayed properly for your site's visitors to see</p>
+    <p>
+        In HTML, certain characters have special meanings and need to be represented using HTML entities.
+        For example:
+    </p>
+    <ul>
+        <li>&amp; represents the &amp; (ampersand) character</li>
+        <li>&lt; represents the &lt; (less-than) character</li>
+        <li>&gt; represents the &gt; (greater-than) character</li>
+        <li>&quot; represents the &quot; (double quote) character</li>
+        <li>&apos; represents the &apos; (single quote) character</li>
+        <li>&cent; represents the &cent; (cent) character</li>
+        <li>&pound; represents the &pound; (pound) character</li>
+        <li>&yen; represents the &yen; (yen) character</li>
+        <li>&euro; represents the &euro; (euro) character</li>
+        <li>&copy; represents the &copy; (copyright) character</li>
+        <li>&reg; represents the &reg; (registered trademark) character</li>
+        <li>&trade; represents the &trade;(trademark) character</li>
+    </ul>
+</body>
+</html>
+ 
+
+
+
+
